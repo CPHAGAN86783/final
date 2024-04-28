@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: darkslategray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: aqua;
+}
+
+.navbar li{
+    float: left;
+}
+
+
+
+body {background-image: url("RPS.jpeg") ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
+header, footer {
+    background-color: #ccc;
+}
+
+button {background-color: dodgerblue;
+}
+
+
+h2   {color: rgb(2, 26, 10);
+}
+h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+footer {
+    height: 100px;
+    text-align: center;
+}

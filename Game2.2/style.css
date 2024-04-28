@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: darkslategray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: aqua;
+}
+
+.navbar li{
+    float: left;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    border: 2px solid #000;
+}
+
+table tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+
+
+header, footer {
+    background-color: #ccc;
+}
+body  {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+}
